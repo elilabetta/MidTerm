@@ -1,0 +1,120 @@
+html, body, * {
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 0;
+}
+body {
+    background: #F2F4FC;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-bar {
+    font-weight: 300;
+    font-size: 14px;
+    color: grey;
+    text-decoration: none;
+}
+a {
+    font-weight: 300;
+    font-size: 20px;
+    color: grey;
+    text-decoration: none;
+}
+.home {
+    color:#072AC8;
+    font-size: 20px;
+    font-weight: 300;
+}
+button {
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background: #072AC8;
+    border: none;
+    padding: 15px 30px;
+}
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+.nav-bar {
+    list-style: none;
+}
+.nav-bar li {
+    display: inline-block;
+    padding: 0 10px
+}
+/*hero section*/
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.half-box{
+    width: auto;
+    padding: 10px;
+    border: none;
+    position: relative;
+    justify-content: auto;
+    align-items: auto;
+}
+.man-image{
+    position:relative;
+    top:0;
+    left:0;
+    max-width: 100%;
+    height: auto;
+}
+.card1{
+    position:absolute;
+    top:-2%;
+    left:-10%;
+    max-width: 60%;
+    height: auto;
+}
+.card2{
+    position:absolute;
+    bottom:-20%;
+    right:-15%;
+    max-width: 60%;
+    height: auto;
+}
+.half-box h1{
+    margin-top:10%;
+    margin-bottom: 10%;
+    font-size: 70px;
+    font-weight: 700;
+}
+.half-box p{
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 27px;
+    font-weight: 300;
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sw-button {
+    background: none;
+    color: #6B708D;
+}
+.partnership img{
+    filter: grayscale(100%);
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+/*project*/
+.proj-img{
+    box-sizing: content-box;
+}
+td img{
+    width: 100px;
+    height: auto;
+    min-width: fit-content;
+    vertical-align: middle;
+}

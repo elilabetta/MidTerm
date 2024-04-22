@@ -1,0 +1,23 @@
+-----DAY 1-----
+
+GOALs
+
+create HTML and CSS sheets of HOMEPAGE as much as possible.
+
+LOGIC BEHIND 
+
+identified the main sections of Homepage: header, 
+identify all elements included in each sections:
+ - header includes: -logo, -nav bar, -button contact us; 
+ - body is divided in 3 sections and each section includes: Home section Home:(-Hero Section, -Patnership); Projects (-Recent project, -hear our clients), Services(-our services,-questions)
+ - footer includes: logo, address, -nav bar
+
+ISSUES and RESOLUTIONS
+
+- linked all css and js to html sheet (got difficulties as sheets were in different folders) --> made myown way to solve the issue using notes and google. finally teacher helped me to upderstand issue and sort it out.
+- upload image to visual code studio. fixed issue making sure that all soursed were inside the same working file in Code --> made myown way to solve the issue using notes and google. finally teacher helped me to upderstand issue and sort it out.
+- overlap images in hero section, playing with flex and inspaect page I solved the issue 
+
+
+
+
