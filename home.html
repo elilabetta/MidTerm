@@ -1,76 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Assets</title>
     <link rel="stylesheet" href="home.css" />
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="./Sources/logos/circle.svg"alt="circle" class="logo">
-    <nav>
+      <img src="./Sources/logos/circle.svg" alt="circle" class="logo" />
+      <nav>
         <ul class="nav-bar">
-            <li><a href= "#" class="home"> Home </a></li>
-            <li><a href= "#"> Projects </a></li>
-            <li><a href= "#"> Services </a></li>
+          <li><a href="#" class="home"> Home </a></li>
+          <li><a href="#"> Projects </a></li>
+          <li><a href="#"> Services </a></li>
         </ul>
-    </nav>
-    <button>Contact Us</button>
-</header>
-<section> <!-- hero section -->
-<div class="hero">
-<div class="half-box"> 
-  <h1> Empower Your Business With Stunning Design! </h1>
-  <p>Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</p>
-  <button>Get in touch</button>
-  <button class="sw-button">See our work</button>
-</div>
-  <div class="half-box">
-    <img src="./Sources/hero-section/hero-image.png"alt="man-image" class="man-image">
-    <img src="./Sources/hero-section/card-1.png"alt="card-1" class="card1">
-    <img src="./Sources/hero-section/card-2.png"alt="card-2" class="card2">
-  </div>
-  </div>
-<div class="partnership">
-<img src="./Sources/logos/airbnb-logo.svg"  alt="airbnb">
-<img src="./Sources/logos/google-logo.svg"  alt="google">
-<img src="./Sources/logos/microsoft-logo.svg"  alt="microsoft">
-<img src="./Sources/logos/fedex-logo.svg"  alt="fedex">
-<img src="./Sources/logos/amazon-logo.svg"  alt="amazon">
-</div>
-</section> <!--Project -->
-<h2>Recent Projects</h2>
-<div>
-    <table class="half-box">
-        <tr class="proj-img">
-            <td img src="./Sources/projects-section/1.jpg" alt="first img"></td>
-            <td img src="./Sources/projects-section/2.jpg" alt="second img"></td>
-            <td img src="./Sources/projects-section/3.jpg" alt="third img"></td>
-        </tr>
-        <tr class="proj-tit">
-            <td>Simplify</td>
-            <td>Dashcoint</td>
-            <td>Vectorify</td>
-        </tr>
-        <tr class="proj-p">
-            <td>Ui Design & App Development</td>
-            <td>Web Development</td>
-            <td>RUser Experience Design</td>
-        </tr>
-        <tr class="proj-link">
-            <td>Learn more</td>
-            <td>Learn more</td>
-            <td>Learn more</td>
-        </tr>
-    </table>
-</div>
-
-
-
-
-
+      </nav>
+      <button>Contact Us</button>
+    </header>
+    <section class="hero">
+      <!-- hero section -->
+      <div class="half-box">
+        <h1>Empower Your Business With Stunning Design!</h1>
+        <p>
+          Circle is a digital design and development studio. We design and
+          develop astonishing websites and mobile apps.
+        </p>
+        <button>Get in touch</button>
+        <button class="sw-button">See our work</button>
+      </div>
+      <div class="half-box">
+        <img
+          src="./Sources/hero-section/hero-image.png"
+          alt="man-image"
+          class="man-image"
+        />
+        <img
+          src="./Sources/hero-section/card-1.png"
+          alt="card-1"
+          class="card1"
+        />
+        <img
+          src="./Sources/hero-section/card-2.png"
+          alt="card-2"
+          class="card2"
+        />
+      </div>
+    </section>
+    <!--Partnership -->
+    <section class="partnership">
+      <img src="./Sources/logos/airbnb-logo.svg" alt="airbnb" />
+      <img src="./Sources/logos/google-logo.svg" alt="google" />
+      <img src="./Sources/logos/microsoft-logo.svg" alt="microsoft" />
+      <img src="./Sources/logos/fedex-logo.svg" alt="fedex" />
+      <img src="./Sources/logos/amazon-logo.svg" alt="amazon" />
+    </section>
+    <!--Projects-->
+    <h2>Recent Projects</h2>
+    <section class="container">
+      <article class="projects">
+        <img src="./Sources/projects-section/1.jpg" alt="first img" />
+        <p class="title">Simplify</p>
+        <p>UI Design & App Developmet</p>
+        <p><a href="#">Learn more</a></p>
+      </article>
+      <article class="projects">
+        <img src="./Sources/projects-section/2.jpg" alt="second img" />
+        <p class="title">Dashcoin</p>
+        <p>Web Developmet</p>
+        <p><a href="#">Learn more</a></p>
+      </article>
+      <article class="projects">
+        <img src="./Sources/projects-section/3.jpg" alt="third img" />
+        <p class="title">Vectorify</p>
+        <p>User Experience Design</p>
+        <p><a href="#">Learn more</a></p>
+      </article>
+    </section>
+    <section class="testimonial">
+      <!--emojis-->
+      <h3>Hear What Our Clients Have to Say</h3>
+      <div class="text-imonial">
+        <p>"Circle helped us through every stage if our startup.</p>
+        <p>We really enjoyes working with you."</p>
+      </div>
+      <div class="work-test">
+        <div class="testimonial-emojis">
+            <img class="emoji-1" src="./Sources/testimonial-section/memoji-1.png" alt="">
+            <img class="emoji-2" src="./Sources/testimonial-section/memoji-2.png" alt="">
+            <img class="emoji-3" src="./Sources/testimonial-section/memoji-3.png" alt="">
+            <img class="emoji-4" src="./Sources/testimonial-section/memoji-4.png" alt="">
+        </div>
+        <img class="girl-img" src="./Sources/testimonial-section/profile.png" />
+        <div>
+          <p class="blue-color">Kristin Watson</p>
+          <p class="white-color">Booking.com</p>
+        </div>
+      </div>
+    </section>
 
     <script src="home.js"></script>
-</body>
+  </body>
 </html>
