@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <img src="./Sources/logos/circle.svg" alt="circle" class="logo" />
+      <img class="logo" src="./Sources/logos/circle.svg" alt="circle" />
       <nav>
         <ul class="nav-bar">
           <li><a href="#" class="home"> Home </a></li>
@@ -16,7 +16,7 @@
           <li><a href="#"> Services </a></li>
         </ul>
       </nav>
-      <button>Contact Us</button>
+      <button class="button">Contact Us</button>
     </header>
     <section class="hero">
       <!-- hero section -->
@@ -26,7 +26,7 @@
           Circle is a digital design and development studio. We design and
           develop astonishing websites and mobile apps.
         </p>
-        <button>Get in touch</button>
+        <button class="button">Get in touch</button>
         <button class="sw-button">See our work</button>
       </div>
       <div class="half-box">
@@ -86,10 +86,26 @@
       </div>
       <div class="work-test">
         <div class="testimonial-emojis">
-            <img class="emoji-1" src="./Sources/testimonial-section/memoji-1.png" alt="">
-            <img class="emoji-2" src="./Sources/testimonial-section/memoji-2.png" alt="">
-            <img class="emoji-3" src="./Sources/testimonial-section/memoji-3.png" alt="">
-            <img class="emoji-4" src="./Sources/testimonial-section/memoji-4.png" alt="">
+          <img
+            class="emoji-1"
+            src="./Sources/testimonial-section/memoji-1.png"
+            alt=""
+          />
+          <img
+            class="emoji-2"
+            src="./Sources/testimonial-section/memoji-2.png"
+            alt=""
+          />
+          <img
+            class="emoji-3"
+            src="./Sources/testimonial-section/memoji-3.png"
+            alt=""
+          />
+          <img
+            class="emoji-4"
+            src="./Sources/testimonial-section/memoji-4.png"
+            alt=""
+          />
         </div>
         <img class="girl-img" src="./Sources/testimonial-section/profile.png" />
         <div>
@@ -98,7 +114,85 @@
         </div>
       </div>
     </section>
-
-    <script src="home.js"></script>
+    <section class="services">
+      <!--Services -->
+      <h3>Our Services</h3>
+      <section class="services-container">
+        <article class="services-cards">
+          <img
+            class="serv-img"
+            src="./Sources/services-section/icons/1.svg"
+            alt=""
+          />
+          <p class="title">User Interface Design</p>
+          <p>
+            Circle provides you with a stunning user interface design that is
+            accessible to everyone.
+          </p>
+          <p><a href="#">Learn more</a></p>
+        </article>
+        <article class="services-cards">
+          <img
+            class="serv-img"
+            src="./Sources/services-section/icons/2.svg"
+            alt=""
+          />
+          <p class="title">User Experience Design</p>
+          <p>
+            Circle always focuses on delivering the best user experience to your
+            customers.
+          </p>
+          <p><a href="#">Learn more</a></p>
+        </article>
+        <article class="services-cards">
+          <img
+            class="serv-img"
+            src="./Sources/services-section/icons/3.svg"
+            alt=""
+          />
+          <p class="title">Application Development</p>
+          <p>
+            We develop high-quality mobile and web applications using the latest
+            technology stack.
+          </p>
+          <p><a href="#">Learn more</a></p>
+        </article>
+      </section>
+    </section>
+    <section class="newsletter">
+      <!--newsletter-->
+      <h4>Do you have any questions?</h4>
+      <h5>Let us help you!</h5>
+      <div class="email-img">
+      <form action="/subscribe.php" method="POST">
+        <label for="email"></label>
+        <input class="enter-email"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email" 
+          required/>
+        <input class="button" type="button" value="Suscribe" /> 
+      </form>
+    </div>
+    </section>
+    <section class="footer">
+      <ul class="nav-footer">
+        <li>
+          <img class="logo" src="./Sources/logos/circle.svg" alt="circle" />
+        </li>
+        <li><p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p></li>
+      </ul>
+      <nav>
+        <ul class="nav-footer1">
+          <li><a href="#"> Team </a></li>
+          <li><a href="#"> Services </a></li>
+          <li><a href="#"> About Us </a></li>
+          <li><a href="#"> Press </a></li>
+          <li><a href="#"> Projects </a></li>
+          <li><a href="#"> Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </section>
   </body>
 </html>
