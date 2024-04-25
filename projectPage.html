@@ -12,20 +12,22 @@
       <nav>
         <ul class="nav-bar">
           <li><a href="./home.html" class="home"> Home </a></li>
-          <li><a href="#ourprojects"> Projects </a></li>
-          <li><a href="">Services</a></li>
+          <li><a href="./projectPage.html"> Projects </a></li>
+          <li>Services</li>
         </ul>
       </nav>
-      <button class="button">Contact Us</button>
+      <button class="button"><a href="./contactUs.html">Contact Us</a></button>
     </header>
     <section id="first-section">
       <h1>Titulo</h1>
-      <div>
+      <div class="rowdate">
         <p>UI Design & App Development</p>
-        <p>Completed on</p>
+        <p id="date">Completed on</p>
       </div>
-      <img src="" alt="" />
-      <p class="content">Content</p>
+
+      <div>
+        <p id="import-image"></p>
+      </div>
     </section>
     <section class="other-services">
       <h2>Other Projects</h2>
@@ -51,8 +53,9 @@
       </section>
     </section>
     <section class="newsletter">
-      <h4>Do you have any questions?</h4>
-      <h5>Let us help you!</h5>
+      <!--newsletter-->
+      <h3>Do you have any questions?</h3>
+      <h4>Let us help you!</h4>
       <div class="email-img">
         <form action="/subscribe.php" method="POST">
           <label for="email"></label>
@@ -62,32 +65,32 @@
             id="email"
             name="email"
             placeholder="Enter your email"
-            required
           />
           <input class="button" type="button" value="Suscribe" />
         </form>
       </div>
     </section>
-
-    <section class="footer">
-      <ul class="nav-footer">
-        <li>
-          <img class="logo" src="./Sources/logos/circle.svg" alt="circle" />
-        </li>
-        <li><p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p></li>
-      </ul>
-      <nav>
-        <ul class="nav-footer1">
-          <li><a href="#"> Team </a></li>
-          <li><a href="#"> Services </a></li>
-          <li><a href="#"> About Us </a></li>
-          <li><a href="#"> Press </a></li>
-          <li><a href="#"> Projects </a></li>
-          <li><a href="#"> Privacy Policy</a></li>
-        </ul>
-      </nav>
-    </section>
-
+    <footer class="footer">
+      <!--Footer-->
+      <div class="half-left-footer">
+        <img class="logo" src="./Sources/logos/circle.svg" alt="circle" />
+        <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+      </div>
+      <div class="right-side-footer">
+        <div>
+          <p>Team</p>
+          <p>Services</p>
+        </div>
+        <div>
+          <p>About Us</p>
+          <p>Press</p>
+        </div>
+        <div>
+          <p>Projects</p>
+          <p>Privacy Policy</p>
+        </div>
+      </div>
+    </footer>
     <script src="projectPage.js"></script>
   </body>
 </html>

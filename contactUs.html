@@ -16,7 +16,7 @@
           <li><a href="">Services</a></li>
         </ul>
       </nav>
-      <button class="button" href="./contactUs.html">Contact Us</button>
+      <button class="button"><a href="./contactUs.html">Contact Us</a></button>
     </header>
     <form id="myForm" action="" method="get" class="formClass">
       <h1>Contact Us</h1>
@@ -58,27 +58,30 @@
         <span id="error-text" hidden class="errorForm"> Please write at least 5 characters></span>
         <!-- error message -->
 
-        <button id="submitForm" class="button" type="submit">Enviar!</button>
+        <button id="submitForm" class="button" type="submit">Submit</button>
       </div>
     </form>
-    <section class="footer">
-      <ul class="nav-footer">
-        <li>
-          <img class="logo" src="./Sources/logos/circle.svg" alt="circle" />
-        </li>
-        <li><p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p></li>
-      </ul>
-      <nav>
-        <ul class="nav-footer1">
-          <li><a href="#"> Team </a></li>
-          <li><a href="#"> Services </a></li>
-          <li><a href="#"> About Us </a></li>
-          <li><a href="#"> Press </a></li>
-          <li><a href="#"> Projects </a></li>
-          <li><a href="#"> Privacy Policy</a></li>
-        </ul>
-      </nav>
-    </section>
+    <footer class="footer">
+      <!--Footer-->
+      <div class="half-left-footer">
+        <img class="logo" src="./Sources/logos/circle.svg" alt="circle" />
+        <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+      </div>
+      <div class="right-side-footer">
+        <div>
+          <p>Team</p>
+          <p>Services</p>
+        </div>
+        <div>
+          <p>About Us</p>
+          <p>Press</p>
+        </div>
+        <div>
+          <p>Projects</p>
+          <p>Privacy Policy</p>
+        </div>
+      </div>
+    </footer>
     <script src="contactUs.js"></script>
   </body>
 </html>
