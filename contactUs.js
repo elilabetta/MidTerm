@@ -1,39 +1,22 @@
-let okName = "";
 
-function validateForm() {
 
+function validateName() {
 
     let email = document.getElementById('email').value;
     let message = document.getElementById('message').value;
-    let phone = document.getElementById('phone').value
-
-    if (name === "") {
-        document.getElementById('error-message').classList.add('error-message-red');
-        console.log("please introduce your name");
-    } else if (email=== "") {
-        document.getElementById('error-message').classList.add('error-message-red');
-        console.log("please introduce email");
-    } else if (phone === "") {
-        document.getElementById('error-message').classList.add('error-message-red');  
-        console.log("please introduce the phone number");
-    } else if (message=== "") {
-        alert("Please insert at least 5 characters");
+    let phone = document.getElementById('phone').value;
+    let nameUser = document.getElementById("name").value;
+    if (!nameUser.value) {
+      //Si no he escrito nada como nombre, mostrar mensaje de error.
+      document.getElementById("error-name").hidden = false;
+      okName = false;
+      console.log("Please introduce a name")
     } else {
-        console.log(name, email, message);
+      document.getElementById("errorName").hidden = true;
+      nameUser.style.borderStyle = "none";
+      okName = nameUser.value;
     }
-}
-
-function validateName(){
-    let name = document.getElementById('name').value;
-    if (name === "") {
-        document.getElementById("error-name").hidden = true;
-        okName= false;
-    } else {
-        document.getElementById("error-name").hidden = false;
-        okName = name;
-        console.log(okName);
-    }
-}
+  }
 function validateEmail(){
     let name = document.getElementById('email').value;
     if (name === "") {

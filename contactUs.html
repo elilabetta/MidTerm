@@ -29,38 +29,20 @@
           name="name"
           onblur="validateName()"
         />
-        <span id="error-name" hidden class="errorForm">
-          Please introduce a name</span
-        >
+        <span id="error-name" hidden class="errorForm"> Please introduce a name</span>
         <!-- error message -->
       </div>
       <div class="form-style2">
         <section class="labels">
           <label class="user-input" for="email">Email</label>
-          <input
-            class="text-area"
-            type="email"
-            id="email"
-            name="email"
-            onblur="validateEmail()"
-          />
-          <span id="error-email" hidden class="errorForm">
-            Please introduce a valid email></span
-          >
+          <input class="text-area" type="email" id="email" name="email"  onblur="validateEmail()"/>
+          <span id="error-email" hidden class="errorForm"> Please introduce a valid email></span>
           <!-- error message -->
         </section>
         <section class="labels">
           <label class="user-input" for="phone">Phone</label>
-          <input
-            class="text-area"
-            type="phone"
-            id="phone"
-            name="phone"
-            onblur="validatePhone()"
-          />
-          <span id="error-phone" hidden class="errorForm">
-            Please introduce a valid phone number></span
-          >
+          <input class="text-area" type="phone" id="phone" name="phone"  onblur="validatePhone()"/>
+          <span id="error-phone" hidden class="errorForm"> Please introduce a valid phone number></span>
           <!-- error message -->
         </section>
       </div>
@@ -73,9 +55,7 @@
           rows="5"
           onblur="validateMessage()"
         ></textarea>
-        <span id="error-text" hidden class="errorForm">
-          Please write at least 5 characters></span
-        >
+        <span id="error-text" hidden class="errorForm"> Please write at least 5 characters></span>
         <!-- error message -->
 
         <button id="submitForm" class="button" type="submit">Enviar!</button>
