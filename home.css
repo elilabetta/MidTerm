@@ -98,7 +98,6 @@ header {
   font-size: 27px;
   font-weight: 300;
   text-align: left;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .sw-button {
   background: none;
@@ -327,18 +326,40 @@ h5 {
 /*footer*/
 footer {
   display: flex;
-  position: relative;
-  flex-direction: row;
+  flex-direction: column;
   padding: 20px;
 }
+.half-box footer{
+  width: 300px;
+  height: 200px;
+}
+.half-box footer1{
+  width: 300px;
+  height: 200px;
+}
+.half-box footer2{
+  width: 300px;
+  height: 200px;
+}
 .nav-footer {
+  display: flex;
+  position: relative;
   flex-direction: column;
+  padding: 20px;
 }
 .nav-footer1 {
-  flex-direction: row;
+  display: flex;
+  position: relative;
+  flex-direction: row-reverse;
+  padding: 20px;
 }
-
+.nav-footer2{
+  display: flex;
+  position: relative;
+  flex-direction: row-reverse;
+  padding: 20px;
+}
 .logo {
-  width: 400;
-  height: 200;
+  width: 10%;
+  height: 10%;
 }
