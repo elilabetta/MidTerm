@@ -112,6 +112,7 @@ h2 {
 .image{
   width: 90%;
   height: 600px;
+  border-bottom: 10%;
 }
 
 /*newsletter*/
@@ -140,7 +141,7 @@ h4 {
 /*footer*/
 .footer{
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 .half-left-footer{
   display: flex;
@@ -153,8 +154,8 @@ h4 {
   justify-content: space-between;
 } 
 .logo{
-  width: 200px;
-  height: 200px;;
+  width: 30%;
+  height: 30%;
 }
 
 

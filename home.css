@@ -327,7 +327,7 @@ h5 {
 /*footer*/
 .footer{
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 .half-left-footer{
   display: flex;
@@ -340,7 +340,7 @@ h5 {
   justify-content: space-between;
 } 
 .logo{
-  width: 10%;
-  height: 10%;
+  width: 30%;
+  height: 30%;
 }
 

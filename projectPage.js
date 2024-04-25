@@ -1,4 +1,4 @@
-async function cargarArchivoJSON() {
+async function uploadJSON() {
       const response = await fetch("https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects");
       if (!response.ok) {
         throw new Error("Error to upload JSON");
@@ -39,5 +39,5 @@ async function cargarArchivoJSON() {
   }
   
   
-  cargarArchivoJSON();
+  uploadJSONJSON();
   
