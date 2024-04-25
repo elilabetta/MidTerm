@@ -9,6 +9,7 @@ body,
 body {
   background: #f2f4fc;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
 }
 .nav-bar {
   font-weight: 300;
@@ -91,9 +92,8 @@ h1 {
   width: 49%;
   flex-direction: column;
 }
-.error-message{
-  color: red
-
+.error-message-red{
+  color: red;
 }
 
 

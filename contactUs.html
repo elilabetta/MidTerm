@@ -1,91 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-    <link rel="stylesheet" href="contactUs.css">
-</head>
-<body>
+    <link rel="stylesheet" href="contactUs.css" />
+  </head>
+  <body>
     <header>
-        <img class="logo" src="./Sources/logos/circle.svg" alt="circle" />
-        <nav>
-          <ul class="nav-bar">
-            <li><a href="#" class="home"> Home </a></li>
-            <li><a href="#"> Projects </a></li>
-            <li><a href="#"> Services </a></li>
-          </ul>
-        </nav>
-        <button class="button">Contact Us</button>
-    </header>
-    <title>Contact Us Form</title>
-</head>
-<body>
-    <h1>Contact Us</h1>
-<form id="myForm">
- <div class="form-style">
-    <label class="user-input" for="name">Full Name</label>
-    <input class="text-n-area"  type="text" id="name" name="name">
-    <span id="error-message" class="error-message"></span> <!-- error message -->
-</div>
-<div class="form-style2">
-    <section class="labels">
-        <label class="user-input" for="email">Email</label>
-        <input class="text-area"  type="email" id="email" name="email">
-        <span id="error-message" class="error-message"></span> <!-- error message -->
-    </section>
-    <section class="labels">
-        <label class="user-input" for="phone">Phone</label>
-        <input class="text-area"  type="phone" id="phone" name="phone">
-        <span id="error-message" class="error-message"></span> <!-- error message --></section>
-</div>
-<div class="form-style">
-    <label class="user-input" for="message">Message</label>
-    <textarea  class="text-m-area"  id="message" name="message" rows="5"></textarea>
-    <span id="error-message" class="error-message"></span> <!-- error message -->
-    <button id="submitForm" class="button" type="submit">Submit</button>
-</div>
-</form>
-
-
-
-
-
-
-
-
-
-</form>
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="footer">
-  <ul class="nav-footer">
-    <li>
       <img class="logo" src="./Sources/logos/circle.svg" alt="circle" />
-    </li>
-    <li><p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p></li>
-  </ul>
-  <nav>
-    <ul class="nav-footer1">
-      <li><a href="#"> Team </a></li>
-      <li><a href="#"> Services </a></li>
-      <li><a href="#"> About Us </a></li>
-      <li><a href="#"> Press </a></li>
-      <li><a href="#"> Projects </a></li>
-      <li><a href="#"> Privacy Policy</a></li>
-    </ul>
-  </nav>
-</section>
-<script src="contactUs.js"> </script>
-</body>
+      <nav>
+        <ul class="nav-bar">
+          <li><a href="./home.html" class="home"> Home </a></li>
+          <li><a href="#ourprojects"> Projects </a></li>
+          <li><a href="">Services</a></li>
+        </ul>
+      </nav>
+      <button class="button">Contact Us</button>
+    </header>
+
+    <h1>Contact Us</h1>
+    <form id="myForm">
+      <div class="form-style">
+        <label class="user-input" for="name">Full Name</label>
+        <input class="text-n-area" type="text" id="name" name="name" />
+        <span id="error-message" class="error-message-red"></span>
+        <!-- error message -->
+      </div>
+      <div class="form-style2">
+        <section class="labels">
+          <label class="user-input" for="email">Email</label>
+          <input class="text-area" type="email" id="email" name="email" />
+          <span id="error-message" class="error-message-red"></span>
+          <!-- error message -->
+        </section>
+        <section class="labels">
+          <label class="user-input" for="phone">Phone</label>
+          <input class="text-area" type="phone" id="phone" name="phone" />
+          <span id="error-message" class="error-message-red"></span>
+          <!-- error message -->
+        </section>
+      </div>
+      <div class="form-style">
+        <label class="user-input" for="message">Message</label>
+        <textarea
+          class="text-m-area"
+          id="message"
+          name="message"
+          rows="5"
+        ></textarea>
+        <span id="error-message" class="error-message-red"></span>
+        <!-- error message -->
+
+        <button id="submitForm" class="button" type="submit">Enviar!</button>
+      </div>
+    </form>
+    <section class="footer">
+      <ul class="nav-footer">
+        <li>
+          <img class="logo" src="./Sources/logos/circle.svg" alt="circle" />
+        </li>
+        <li><p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p></li>
+      </ul>
+      <nav>
+        <ul class="nav-footer1">
+          <li><a href="#"> Team </a></li>
+          <li><a href="#"> Services </a></li>
+          <li><a href="#"> About Us </a></li>
+          <li><a href="#"> Press </a></li>
+          <li><a href="#"> Projects </a></li>
+          <li><a href="#"> Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </section>
+    <script src="contactUs.js"></script>
+  </body>
 </html>

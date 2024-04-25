@@ -11,9 +11,9 @@
       <img class="logo" src="./Sources/logos/circle.svg" alt="circle" />
       <nav>
         <ul class="nav-bar">
-          <li><a href="#" class="home"> Home </a></li>
-          <li><a href="#"> Projects </a></li>
-          <li><a href="#"> Services </a></li>
+          <li><a href="./home.html" class="home"> Home </a></li>
+          <li><a href="#ourprojects"> Projects </a></li>
+          <li><a href="">Services</a></li>
         </ul>
       </nav>
       <button class="button">Contact Us</button>
@@ -57,24 +57,26 @@
     </section>
     <!--Projects-->
     <h2>Recent Projects</h2>
-    <section class="container">
+    <section id="ourprojects" class="container">
       <article class="projects">
-        <img src="./Sources/projects-section/1.jpg" alt="first img" />
-        <p class="title">Simplify</p>
-        <p>UI Design & App Developmet</p>
-        <p><a href="#">Learn more</a></p>
+        <a href="./projectPage.html">
+          <img src="./Sources/projects-section/1.jpg" alt="first img" />
+          <p class="title">Simplify</p>
+          <p>UI Design & App Developmet</p>
+          <p>Learn more</p>
+        </a>
       </article>
       <article class="projects">
         <img src="./Sources/projects-section/2.jpg" alt="second img" />
         <p class="title">Dashcoin</p>
         <p>Web Developmet</p>
-        <p><a href="#">Learn more</a></p>
+        <p>Learn more</p>
       </article>
       <article class="projects">
         <img src="./Sources/projects-section/3.jpg" alt="third img" />
         <p class="title">Vectorify</p>
         <p>User Experience Design</p>
-        <p><a href="#">Learn more</a></p>
+        <p>Learn more</p>
       </article>
     </section>
     <section class="testimonial">
@@ -129,7 +131,7 @@
             Circle provides you with a stunning user interface design that is
             accessible to everyone.
           </p>
-          <p><a href="#">Learn more</a></p>
+          <p class="lm">Learn more</p>
         </article>
         <article class="services-cards">
           <img
@@ -142,7 +144,7 @@
             Circle always focuses on delivering the best user experience to your
             customers.
           </p>
-          <p><a href="#">Learn more</a></p>
+          <p class="lm">Learn more</p>
         </article>
         <article class="services-cards">
           <img
@@ -155,7 +157,7 @@
             We develop high-quality mobile and web applications using the latest
             technology stack.
           </p>
-          <p><a href="#">Learn more</a></p>
+          <p class="lm">Learn more</p>
         </article>
       </section>
     </section>
@@ -164,36 +166,36 @@
       <h4>Do you have any questions?</h4>
       <h5>Let us help you!</h5>
       <div class="email-img">
-      <form action="/subscribe.php" method="POST">
-        <label for="email"></label>
-        <input class="enter-email"
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter your email" 
-          required/>
-        <input class="button" type="button" value="Suscribe" /> 
-      </form>
-    </div>
+        <form action="/subscribe.php" method="POST">
+          <label for="email"></label>
+          <input
+            class="enter-email"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+          <input class="button" type="button" value="Suscribe" />
+        </form>
+      </div>
     </section>
     <section class="footer">
-        <ul class="nav-footer">
-          <li>
-            <img class="logo" src="./Sources/logos/circle.svg" alt="circle" />
-          </li>
-          <li><p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p></li>
-        </ul>
-        <nav>
-          <ul class="nav-footer1">
-            <li><a href="#"> Team </a></li>
-            <li><a href="#"> Services </a></li>
-            <li><a href="#"> About Us </a></li>
-            <li><a href="#"> Press </a></li>
-            <li><a href="#"> Projects </a></li>
-            <li><a href="#"> Privacy Policy</a></li>
-          </ul>
-        </nav>
-      </section>
-    <script src="home.js" ></script>
+      <!--Footer-->
+      <div class="nav-footer">
+        <img class="logo" src="./Sources/logos/circle.svg" alt="circle" />
+        <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+      </div>
+      <div class="nav-footer">
+        <p><a href=""> Team </a></p>
+        <p><a href=""> Services </a></p>
+        <p><a href=""> About Us </a></p>
+      </div>
+      <div class="nav-footer1">
+        <p><a href=""> Press </a></p>
+        <p><a href=""> Projects </a></p>
+        <p><a href=""> Privacy Policy</a></p>
+      </div>
+    </section>
+    <script src="home.js"></script>
   </body>
 </html>
