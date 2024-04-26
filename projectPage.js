@@ -1,4 +1,4 @@
-async function uploadJSON() {
+async function cargarArchivoJSON() {
       const response = await fetch("https://raw.githubusercontent.com/ironhack-jc/mid-term-api/main/projects");
       if (!response.ok) {
         throw new Error("Error to upload JSON");
@@ -9,12 +9,12 @@ async function uploadJSON() {
 
       firstsection.innerHTML = `
       <h1>${midterm[3].name}</h1>
-      <div>
+      <div class="rowdate">
         <p>UI Design & App Development</p>
         <p>Completed on: ${midterm[3].completed_on}</p>
       </div>
       <img class="image" src="${midterm[3].image}" alt="" />
-      <p${midterm[3].content}></p>
+      <p class="text-img" ${midterm[3].content}></p>
       `
 
        // Iterar sobre los personajes del objeto JSON y crear filas en la tabla
@@ -39,5 +39,5 @@ async function uploadJSON() {
   }
   
   
-  uploadJSONJSON();
+  cargarArchivoJSON();
   

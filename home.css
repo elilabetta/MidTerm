@@ -10,6 +10,10 @@ body {
   background: #f2f4fc;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+.circle{
+  width: 5%;
+  height: 5%;
+}
 .nav-bar {
   font-weight: 300;
   font-size: 14px;
@@ -38,6 +42,15 @@ a {
   border: none;
   padding: 15px 30px;
 }
+.button a{
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    background: #072ac8;
+    border: none;
+    padding: 15px 30px;
+  }
 header {
   display: flex;
   justify-content: space-between;
